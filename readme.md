@@ -8,7 +8,7 @@
     4. block
     5. inline-flex
 
-## flex - One dimensional Layout methods.
+# flex - One dimensional Layout methods.
 
 
     - flex direction - choose dimensional  with this properties
