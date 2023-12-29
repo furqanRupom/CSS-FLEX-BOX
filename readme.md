@@ -15,13 +15,19 @@
     - flex direction - choose dimensional  with this properties
 
     1. flex direction : column, row , row-reverse, column-reverse;
-
-    2. Items And Justify alignments :
+        ```css
+          flex-direction :row; defualt
+          flex-direction: column;
+          flex-direction : row-reverse; // revesing the row
+          flex-direction :  column-reverse // reversing the column 
+        ```
+ 
+    3. Items And Justify alignments :
 
     - I. align-items for aligning items vertically eg. Y Axis
 
       ```css
-         align-items :center;
+          align-items :center;
           align-items: start;
           align-items:end;
         ```
@@ -49,7 +55,6 @@
     custom
 
     ```css
-
     flex-grow : 0.4;
     ```
 
@@ -63,7 +68,7 @@
     ```
 
 
-    5. flex wrap - flex wrap adjusting all the items with if there is no remain space
+    5. flex wrap - flex wrap adjusting all the items width if there is no remain space
 
     ```css
     flex-wrap:wrap;
